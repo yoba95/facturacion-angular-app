@@ -1,7 +1,7 @@
 import { last } from "rxjs";
 import { Invoice } from "../models/invoice";
 
-export const invoiceData : Invoice={
+export const invoiceData : any={
   id:1,
   name: 'Componentes de PC',
   client:{
@@ -23,7 +23,7 @@ export const invoiceData : Invoice={
     id:1,
     product: 'Monitor',
     price: 800000,
-    quantity: 1
+    quantity: 1,
   },
   {
     id:2,
